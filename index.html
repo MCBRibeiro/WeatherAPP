@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weekly Weather</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div>
+            <label for="city" id="cityLabel">
+              What city are you looking for?
+            </label>
+          </div>
+          <input type="text" placeholder=" City" id="city" />
+          <button type="button" class="btn btn-secondary" id="search-button">
+            Search
+          </button>
+        </div>
+      </div>
+      <h1>
+        March 28th 2020, in Porto.
+      </h1>
+      <div class="time" id="time">12:00 GMT</div>
+      <div class="row">
+        <div class="col">
+          <h2>
+            <div class="todayTemperature">
+              <span id="todayTemperature">20</span>
+              <span id="sizing"
+                ><a href="#" id="celsius">
+                  ºC
+                </a>
+                |
+                <a href="#" id="farenheit">
+                  F
+                </a></span
+              >
+            </div>
+            <div id="todayImage">
+              <img src="images/rainy img.png" alt="rainy" width="100px" />
+            </div>
+            <div id="todayWeather">
+              Rainy
+            </div>
+          </h2>
+        </div>
+      </div>
+      <h3>
+        5 DAYS FORECAST
+      </h3>
+      <div class="row">
+        <div class="col">
+          <div class="day">
+            March 29th
+          </div>
+          <span class="image">
+            <img src="images/rainy img.png" alt="rainy" width="100px" />
+          </span>
+          <div class="weather">
+            Rainy
+          </div>
+          <div class="temperature">
+            19ºC
+          </div>
+        </div>
+        <div class="col">
+          <div class="day">
+            March 30th
+          </div>
+          <span class="image">
+            <img src="images/rainy img.png" alt="rainy" width="100px" />
+          </span>
+          <div class="weather">
+            Rainy
+          </div>
+          <div class="temperature">
+            19ºC
+          </div>
+        </div>
+        <div class="col">
+          <div class="day">
+            March 31st
+          </div>
+          <span class="image">
+            <img src="images/rainy img.png" alt="rainy" width="100px" />
+          </span>
+          <div class="weather">
+            Rainy
+          </div>
+          <div class="temperature">
+            19ºC
+          </div>
+        </div>
+        <div class="col">
+          <div class="day">
+            April 1st
+          </div>
+          <span class="image">
+            <img src="images/rainy img.png" alt="rainy" width="100px" />
+          </span>
+          <div class="weather">
+            Rainy
+          </div>
+          <div class="temperature">
+            19ºC
+          </div>
+        </div>
+        <div class="col">
+          <div class="day">
+            April 2nd
+          </div>
+          <span class="image">
+            <img src="images/rainy img.png" alt="rainy" width="100px" />
+          </span>
+          <div class="weather">
+            Rainy
+          </div>
+          <div class="temperature">
+            19ºC
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/script.js"></script>
+  </body>
+</html>
